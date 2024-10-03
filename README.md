@@ -1,0 +1,2 @@
+# MediWeb
+Con el aumento de la demanda de servicios de salud accesibles y eficientes, y la creciente aceptación de la telemedicina, existe una oportunidad significativa para crear una plataforma de consultas médicas virtuales que ofrezca atención médica rápida, segura y accesible para personas que no pueden asistir a consultas presenciales, especialmente en áreas rurales o para aquellos con movilidad limitada.  
