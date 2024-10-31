@@ -1,0 +1,565 @@
+import React from 'react';
+
+import ImageImage from 'src/assets/images/Frame1_image.png';
+
+import Image1Image from 'src/assets/images/Frame1_image.png';
+
+import Image2Image from 'src/assets/images/Frame1_image.png';
+
+import Image3Image from 'src/assets/images/Frame1_image.png';
+
+import Image11Image from 'src/assets/images/Frame1_image_1.png';
+
+import {
+  styled
+} from '@mui/material/styles';
+
+const Frame11 = styled("div")({
+  display: `flex`,
+  position: `relative`,
+  isolation: `isolate`,
+  flexDirection: `row`,
+  width: `1133px`,
+  height: `574px`,
+  justifyContent: `flex-start`,
+  alignItems: `flex-start`,
+  padding: `0px`,
+  boxSizing: `border-box`,
+});
+
+const Rectangle1 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 0.2)`,
+  backdropFilter: `blur(4px)`,
+  WebkitBackdropFilter: `blur(4px)`,
+  width: `1133px`,
+  height: `574px`,
+  position: `absolute`,
+  left: `0px`,
+  top: `0px`,
+});
+
+const Rectangle2 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `907px`,
+  height: `421px`,
+  position: `absolute`,
+  left: `121px`,
+  top: `112px`,
+});
+
+const Rectangle3 = styled("div")({
+  backgroundColor: `rgba(217, 217, 217, 1)`,
+  borderRadius: `40px`,
+  width: `882px`,
+  height: `79px`,
+  position: `absolute`,
+  left: `134px`,
+  top: `125px`,
+});
+
+const DetallesDeLaConsulta = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `20px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `463px`,
+  top: `152px`,
+});
+
+const Rectangle4 = styled("div")({
+  backgroundColor: `rgba(217, 217, 217, 1)`,
+  borderRadius: `40px`,
+  width: `382px`,
+  height: `287px`,
+  position: `absolute`,
+  left: `163px`,
+  top: `220px`,
+});
+
+const Rectangle7 = styled("div")({
+  backgroundColor: `rgba(217, 217, 217, 1)`,
+  borderRadius: `40px`,
+  width: `382px`,
+  height: `287px`,
+  position: `absolute`,
+  left: `608px`,
+  top: `220px`,
+});
+
+const Cambiar = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `770px`,
+  top: `411px`,
+});
+
+const Rectangle6 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `348px`,
+  height: `66px`,
+  position: `absolute`,
+  left: `180px`,
+  top: `238px`,
+});
+
+const Rectangle8 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `348px`,
+  height: `174px`,
+  position: `absolute`,
+  left: `180px`,
+  top: `319px`,
+});
+
+const Impuestos = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(117, 107, 107, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `264px`,
+  top: `428px`,
+});
+
+const Rectangle11 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `142px`,
+  height: `42px`,
+  position: `absolute`,
+  left: `648px`,
+  top: `451px`,
+});
+
+const Rechazar = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(117, 107, 107, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `685px`,
+  top: `463px`,
+});
+
+const Rectangle12 = styled("div")({
+  backgroundColor: `rgba(166, 139, 249, 1)`,
+  borderRadius: `40px`,
+  width: `142px`,
+  height: `42px`,
+  position: `absolute`,
+  left: `819px`,
+  top: `451px`,
+});
+
+const AceptarYPagar = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(255, 255, 255, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `834px`,
+  top: `463px`,
+});
+
+const Rectangle9 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `273px`,
+  height: `54px`,
+  position: `absolute`,
+  left: `662px`,
+  top: `277px`,
+});
+
+const MasterCard2876 = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `741px`,
+  top: `296px`,
+});
+
+const MetodoDePago = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `20px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `719px`,
+  top: `235px`,
+});
+
+const Rectangle10 = styled("div")({
+  backgroundColor: `rgba(255, 255, 255, 1)`,
+  borderRadius: `40px`,
+  width: `273px`,
+  height: `54px`,
+  position: `absolute`,
+  left: `662px`,
+  top: `344px`,
+});
+
+const Efectivo = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `770px`,
+  top: `362px`,
+});
+
+const Profesional = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(175, 175, 175, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `11px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  width: `90px`,
+  height: `17px`,
+  position: `absolute`,
+  left: `264px`,
+  top: `248px`,
+});
+
+const Image = styled("img")({
+  height: `46px`,
+  width: `48px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `193px`,
+  top: `379px`,
+});
+
+const Image1 = styled("img")({
+  height: `46px`,
+  width: `48px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `193px`,
+  top: `248px`,
+});
+
+const Image2 = styled("img")({
+  height: `46px`,
+  width: `48px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `671px`,
+  top: `281px`,
+});
+
+const Image3 = styled("img")({
+  height: `18px`,
+  width: `20px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `731px`,
+  top: `411px`,
+});
+
+const DrValenzuelaGomezMar = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `13px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `264px`,
+  top: `271px`,
+});
+
+const Image11 = styled("img")({
+  height: `73px`,
+  width: `98px`,
+  objectFit: `cover`,
+  position: `absolute`,
+  left: `23px`,
+  top: `21px`,
+});
+
+const Fecha = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(117, 107, 107, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `263px`,
+  top: `338px`,
+});
+
+const Q27DeNoviembre2024 = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `263px`,
+  top: `356px`,
+});
+
+const Q200Pm = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `448px`,
+  top: `355px`,
+});
+
+const Consulta = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(117, 107, 107, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `16px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `263px`,
+  top: `387px`,
+});
+
+const CosteDeServicio = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(117, 107, 107, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `263px`,
+  top: `408px`,
+});
+
+const CosteTotal = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `14px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `263px`,
+  top: `458px`,
+});
+
+const Rd500 = styled("div")({
+  textAlign: `left`,
+  whiteSpace: `pre-wrap`,
+  fontSynthesis: `none`,
+  color: `rgba(166, 139, 249, 1)`,
+  fontStyle: `normal`,
+  fontFamily: `Inter`,
+  fontWeight: `800`,
+  fontSize: `20px`,
+  letterSpacing: `0px`,
+  textDecoration: `none`,
+  textTransform: `none`,
+  position: `absolute`,
+  left: `420px`,
+  top: `453px`,
+});
+
+
+function Frame1() {
+  return (
+    <Frame11>
+      <Rectangle1>
+      </Rectangle1>
+      <Rectangle2>
+      </Rectangle2>
+      <Rectangle3>
+      </Rectangle3>
+      <DetallesDeLaConsulta>
+        {`Detalles de la consulta`}
+      </DetallesDeLaConsulta>
+      <Rectangle4>
+      </Rectangle4>
+      <Rectangle7>
+      </Rectangle7>
+      <Cambiar>
+        {`Cambiar`}
+      </Cambiar>
+      <Rectangle6>
+      </Rectangle6>
+      <Rectangle8>
+      </Rectangle8>
+      <Impuestos>
+        {`Impuestos`}
+      </Impuestos>
+      <Rectangle11>
+      </Rectangle11>
+      <Rechazar>
+        {`Rechazar`}
+      </Rechazar>
+      <Rectangle12>
+      </Rectangle12>
+      <AceptarYPagar>
+        {`Aceptar y pagar`}
+      </AceptarYPagar>
+      <Rectangle9>
+      </Rectangle9>
+      <MasterCard2876>
+        {`MasterCard ****2876`}
+      </MasterCard2876>
+      <MetodoDePago>
+        {`Metodo de pago`}
+      </MetodoDePago>
+      <Rectangle10>
+      </Rectangle10>
+      <Efectivo>
+        {`Efectivo`}
+      </Efectivo>
+      <Profesional>
+        {`Profesional`}
+      </Profesional>
+      <Image src={ImageImage} loading='lazy' alt={"image"}/>
+      <Image1 src={Image1Image} loading='lazy' alt={"image"}/>
+      <Image2 src={Image2Image} loading='lazy' alt={"image"}/>
+      <Image3 src={Image3Image} loading='lazy' alt={"image"}/>
+      <DrValenzuelaGomezMar>
+        {`Dr. Valenzuela Gomez, Mario`}
+      </DrValenzuelaGomezMar>
+      <Image11 src={Image11Image} loading='lazy' alt={"image 1"}/>
+      <Fecha>
+        {`Fecha`}
+      </Fecha>
+      <Q27DeNoviembre2024>
+        {`27 de noviembre 2024`}
+      </Q27DeNoviembre2024>
+      <Q200Pm>
+        {`2:00PM`}
+      </Q200Pm>
+      <Consulta>
+        {`Consulta`}
+      </Consulta>
+      <CosteDeServicio>
+        {`Coste de servicio`}
+      </CosteDeServicio>
+      <CosteTotal>
+        {`Coste Total`}
+      </CosteTotal>
+      <Rd500>
+        {`RD$ 500`}
+      </Rd500>
+    </Frame11>);
+
+  }
+
+export default Frame1;
+
+  
