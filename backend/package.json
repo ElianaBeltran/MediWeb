@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "init": "^0.1.2",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
