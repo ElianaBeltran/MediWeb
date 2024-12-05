@@ -30,7 +30,7 @@ function UserHome() {
     
 
     useEffect(()=>{
-        axios.get('http://localhost:3000/userHome')
+        axios.get('http://localhost:8000/userHome')
         .then(res => {
             if(res.data.Status === "Success") {
                 setAuth(true)
@@ -45,7 +45,7 @@ function UserHome() {
 
 
     const handleDelete = () => {
-        axios.get('http://localhost:3000/logout')
+        axios.get('http://localhost:8000/logout')
         .then(res => {
             window.location.reload(true);
         }).catch(err => console.log(err))

@@ -15,7 +15,7 @@ function Login (){
     axios.defaults.withCredentials = true;
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.post('https://api.belivgames.com/dirx/login', values)
+        axios.post('http://localhost:8000/login', values)
         .then(res => {
             if(res.data.Status === "Success") {
                 navigate('/userHome')

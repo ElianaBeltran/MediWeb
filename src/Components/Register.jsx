@@ -12,7 +12,7 @@ function Register() {
         const navigate = useNavigate()
         const handleSubmit = (event) => {
             event.preventDefault();
-            axios.post('https://api.belivgames.com/dirx/register', values)
+            axios.post('http://localhost:8000/register', values)
             .then(res => {
                 if(res.data.Status === "Success") {
                     navigate('/login')
